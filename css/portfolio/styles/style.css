@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: rgb(34, 17, 22);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 17, 22, 1) 8%,
+    rgba(111, 89, 100, 1) 45%,
+    rgba(111, 89, 100, 1) 55%,
+    rgba(34, 17, 22, 1) 100%
+  );
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+header h1 {
+  font-family: "Comic sans MS", Arial, Helvetica, sans-serif;
+}
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.about-me img {
+  width: 40%;
+  border: 5px solid #c0c0c0;
+}
+.about-me article {
+  width: 58%;
+  background-color: #e7dee7;
+}
+main {
+  max-width: 970px;
+  margin: 0 auto;
+}
+.article-header {
+  background: linear-gradient(
+    0deg,
+    rgb(146, 146, 146) 8%,
+    rgb(112, 112, 112) 45%,
+    rgb(112, 112, 112) 55%,
+    rgb(146, 146, 146) 100%
+  );
+  color: white;
+  padding: 10px;
+}
+.about-me div {
+  background-color: #e7dee7;
+  padding: 10px;
+}
+.about-me article p {
+  margin: 15px 0;
+}
+.portfolio {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+.portfolio article {
+  width: 300px;
+  background-color: #e7dee7;
+}
+.portfolio-image {
+  width: 300px;
+}
+.technologies {
+  margin: 20px;
+  width: 100%;
+  gap: 5px;
+}
+.portfolio article p {
+  height: 180px;
+  padding: 15px;
+}
+.technologies img {
+  width: 40px;
+}
+button {
+  background-color: #407d61;
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 7px;
+  margin: 10px auto;
+  display: block;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 1);
+  font-weight: 700;
+}
+footer {
+  background-color: white;
+}
+footer p {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  gap: 9px;
+}
+footer ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+footer ul li img {
+  width: 20px;
+  margin-right: 5px;
+}
+footer ul li a {
+  font-style: italic;
+}

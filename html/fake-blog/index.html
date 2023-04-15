@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      img {
+        border: 2px solid black;
+      }
+      * {
+        font-family: "Comic Sans MS", Courier, monospace;
+      }
+      table {
+        border: 2px solid black;
+      }
+      td,
+      th {
+        border: 1px solid black;
+        padding: 8px;
+      }
+      th {
+        background-color: #9c9c9c;
+      }
+      tr:nth-child(odd) {
+        background-color: #d4d4d4;
+      }
+      form div {
+        margin-bottom: 30px;
+      }
+      .submit-button {
+        border: 2px solid black;
+        font-weight: 700;
+        text-transform: uppercase;
+        background-color: white;
+        box-shadow: 2px 2px 0 0 black;
+      }
+      .submit-button:hover {
+        background-color: #9c9c9c;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Roberto Vega</h1>
+    <img src="./cat.jpg" alt="profile picture" />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut quae vitae id
+      odio voluptatibus numquam dignissimos tempora architecto, at illum
+      sapiente illo! Iure sunt natus est reprehenderit dolore labore unde.
+      Inventore animi ut possimus atque tenetur harum itaque alias odit dolor
+      voluptates laborum omnis, vero, nihil repudiandae in culpa quidem aliquid
+    </p>
+    <table>
+      <thead>
+        <tr>
+          <th>Año</th>
+          <th>PPG</th>
+          <th>MPV</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1990-91</td>
+          <td>31.5</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>1990-91</td>
+          <td>31.5</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>1990-91</td>
+          <td>31.5</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>1990-91</td>
+          <td>31.5</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>1990-91</td>
+          <td>31.5</td>
+          <td>SI</td>
+        </tr>
+        <tr>
+          <td>1990-91</td>
+          <td>31.5</td>
+          <td>SI</td>
+        </tr>
+      </tbody>
+    </table>
+    <ul>
+      <li>1984 - 1983 Chicago Bulls</li>
+      <li>1984 - 1983 Chicago Bulls</li>
+      <li>1984 - 1983 Chicago Bulls</li>
+    </ul>
+    <a href="https://www.youtube.com/watch?v=ElVjz_5Odhs&t=197s"
+      >Haz click acá para ver un increíble video destacado</a
+    >
+    <h2>Por favor, contesta esta breve encuesta</h2>
+    <form action="">
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" />
+      </div>
+      <div>
+        <input type="radio" name="send-emails" id="yes" /><label for="yes"
+          >Sí, por favor envíame montones de correos</label
+        >
+        <input type="radio" name="send-emails" id="no" /><label for="no"
+          >No por favor, no me mandes ningún correo</label
+        >
+      </div>
+      <p>Cómo supiste de nosotros</p>
+      <input type="checkbox" id="facebook" /><label for="facebook"
+        >Facebook</label
+      ><br />
+      <input type="checkbox" id="newspaper" /><label for="newspaper"
+        >El periódico</label
+      ><br />
+      <input type="checkbox" id="a-contact" /><label for="a-contact"
+        >Un contecto</label
+      ><br /><br />
+
+      <input class="submit-button" type="submit" value="Enviar" />
+    </form>
+  </body>
+</html>
