@@ -1,0 +1,74 @@
+/*CSS reset settings here*/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  border: 1px solid black;
+}
+#wrapper {
+  display: flex;
+  width: 970px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+#header {
+  height: 150px;
+  width: 100%;
+  background-color: green;
+}
+#navigation {
+  height: 300px;
+  width: 25%;
+  background-color: blue;
+}
+#main_content {
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 400px;
+  width: 75%;
+  background-color: red;
+}
+.subcontents {
+  min-height: 200px;
+  width: 33%;
+  background-color: yellow;
+}
+#advertisement {
+  min-height: 120px;
+  width: 100%;
+  background-color: purple;
+}
+
+@media only screen and (max-width: 480px) {
+  #navigation {
+    display: none;
+  }
+  .subcontents {
+    width: 100%;
+  }
+  #main_content {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 481px) {
+  #navigation {
+    display: none;
+  }
+  #main_content {
+    width: 100%;
+  }
+  .subcontents {
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  #navigation {
+    display: block;
+  }
+  #main_content {
+    width: 75%;
+  }
+  .subcontents {
+    width: 33%;
+  }
+}
